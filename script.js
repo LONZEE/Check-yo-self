@@ -3,8 +3,6 @@ const capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lower = "abcdefghijklmnopqrstuvwxyz";
 const number = "0123456789";
 const special = "@#$%^&*()_+~|}{[]></=";
-// const lenght = 8;
-// Math.floor(Math.random() * options.length)
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
