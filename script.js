@@ -32,6 +32,14 @@ function generatePassword() {
   if (specialLetter) {
     options += special; // adding in special characters
   }
+  var password = "";
+
+  for (var i = 0;i < passwordLength; i++) {
+    var randomIndex = Math.floor(Math.random() * options.length);
+    password += options.charAt(randomIndex);
+  }
+  console.log(password);
+  return password;
 }
 // Write password to the #password input
 function writePassword() {
