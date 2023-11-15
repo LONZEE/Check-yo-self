@@ -34,3 +34,20 @@ document.addEventListener('DOMContentLoaded', function () {
       password += charset.charAt(randomIndex);
     }
     return password;*/
+
+
+    describe('Password Generator', () => {
+      it('should generate a password of specified length', () => {
+        const length = 10;
+        const password = generatePassword(length);
+        assert.equal(password.length, length);
+      });
+    
+      it('should generate a secure password', () => {
+        const password = generatePassword(8);
+        assert.match(password, /[a-z]/); // has a lowercase letter
+        assert.match(password, /[A-Z]/); // has an uppercase letter
+        assert.match(password, /\d/); // has a number
+        assert.match(password, /\W|_/); // has a special character
+      });
+    });
