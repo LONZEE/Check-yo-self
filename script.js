@@ -20,6 +20,10 @@ function generatePassword() {
   var lowerLetter = confirm("What about lower case letters?");
   var numberLetter = confirm("thought about your favorite number?");
   var specialLetter = confirm("How about special characters?");
+  if (!capitalLetter && !lowerLetter && !numberLetter && !specialLetter) {
+    alert("CHECK YO SELF AGAIN!");
+    return "Please Try Again!";
+  }
   if (capitalLetter) {
     options += capital; // adding in capital letters
   }
@@ -51,24 +55,5 @@ function writePassword() {
 }
 generateBtn.addEventListener("click", writePassword);
 
-/*
-document.addEventListener('DOMContentLoaded', function () {
-  const generatePasswordButton = document.querySelector('#generate-password');
-  const passwordLengthInput = document.querySelector('#password-length');
-  const passwordDisplay = document.querySelector('#password-display');
 
-  generatePasswordButton.addEventListener('click', function () {
-    const passwordLength = passwordLengthInput.value;
-    const password = generatePassword(passwordLength);
-    passwordDisplay.textContent = `Generated Password: ${password}`;
-  });
-
-  function generatePassword(length) {
-    const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]:;?><,./-=";
-    let password = "";
-    for (let i = 0; i < length; i++) {
-      const randomIndex = Math.floor(Math.random() * charset.length);
-      password += charset.charAt(randomIndex);
-    }
-    return password;*/
 
