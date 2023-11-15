@@ -1,18 +1,47 @@
 // Assignment code here
-// const options = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%^&*()_+~|}{[]></=";
+const capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const lower = "abcdefghijklmnopqrstuvwxyz";
+const number = "0123456789";
+const special = "@#$%^&*()_+~|}{[]></=";
 // const lenght = 8;
-
+// Math.floor(Math.random() * options.length)
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
+function generatePassword() {
+  let options = ""; // options the user wants
+  var passwordLength = prompt(" Desired password length?");
+  console.log(passwordLength);
+  if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
+    alert("Password must be between 8 and 128 characters");
+    return "Please Try Again!"; // means to start over
+  }
+  var capitalLetter = confirm("Do you want to use capital letters?");
+  var lowerLetter = confirm("What about lower case letters?");
+  var numberLetter = confirm("thought about your favorite number?");
+  var specialLetter = confirm("How about special characters?");
+  if (capitalLetter) {
+    options += capital; // adding in capital letters
+  }
+  if (lowerLetter) {
+    options += lower; // adding in lower case letters
+  }
+  if (numberLetter) {
+    options += number; // adding in numbers
+  }
+  if (specialLetter) {
+    options += special; // adding in special characters
+  }
+}
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword(Math.floor(Math.random() * options.length));
+  var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 
 }
+generateBtn.addEventListener("click", writePassword);
 
 /*
 document.addEventListener('DOMContentLoaded', function () {
@@ -35,19 +64,3 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     return password;*/
 
-
-    describe('Password Generator', () => {
-      it('should generate a password of specified length', () => {
-        const length = 10;
-        const password = generatePassword(length);
-        assert.equal(password.length, length);
-      });
-    
-      it('should generate a secure password', () => {
-        const password = generatePassword(8);
-        assert.match(password, /[a-z]/); // has a lowercase letter
-        assert.match(password, /[A-Z]/); // has an uppercase letter
-        assert.match(password, /\d/); // has a number
-        assert.match(password, /\W|_/); // has a special character
-      });
-    });
