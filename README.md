@@ -12,28 +12,43 @@ Had a lot of fun creating this code. Took me a while, but with the help a tutor 
 Best TUTOR Bobbi Tarkany
 
 ## How the Website looks
-![Launch site](https://github.com/LONZEE/Check-yo-self/assets/128856310/f0d67692-0bd7-4a9b-a6da-287c7199d00b)
+![Launch site](https://github.com/LONZEE/Check-yo-self/assets/128856310/5f2bea5d-d0ec-4bf2-8dc5-f268a21b450c)
+
 
 ## Desired Length
-![Desired Length](https://github.com/LONZEE/Check-yo-self/assets/128856310/821a0928-fe13-4c4c-b039-a556ea5c449c)
+![Desired Length](https://github.com/LONZEE/Check-yo-self/assets/128856310/ef8daac1-f9a4-43ff-824f-f89f28bbff61)
+
 
 ##Required Length(Warning)
-![Warning of characters](https://github.com/LONZEE/Check-yo-self/assets/128856310/262a00cf-700b-4d78-807b-6fddfee1837a)
+![Warning of characters](https://github.com/LONZEE/Check-yo-self/assets/128856310/17cbc860-0285-440e-b94e-74d6b55b2cca)
+
 
 ## Capital letters
-![Capital letters](https://github.com/LONZEE/Check-yo-self/assets/128856310/6f917f13-c0ad-4a7b-9360-9396b9fc865f)
+![Capital letters](https://github.com/LONZEE/Check-yo-self/assets/128856310/664d5503-c34e-4cad-9948-84f06d2a805f)
+
 
 ## Lowercase letters
-![lowercase](https://github.com/LONZEE/Check-yo-self/assets/128856310/ddc8c84b-3266-4762-b4ed-4763c307ec20)
+![lowercase](https://github.com/LONZEE/Check-yo-self/assets/128856310/a06bd224-82b6-4ba8-851b-e5e2794b318b)
+
 
 ## Favorite Number
-![Favorite number](https://github.com/LONZEE/Check-yo-self/assets/128856310/fdea126d-77ff-4228-b481-d41aa1aa7e19)
+![Favorite number](https://github.com/LONZEE/Check-yo-self/assets/128856310/41b2384c-43e2-4cb6-9a94-6694c63af335)
+
 
 ##Special character
-![special character](https://github.com/LONZEE/Check-yo-self/assets/128856310/7bd2aeb7-39c3-4e41-a630-2ce9215b1841)
+![special character](https://github.com/LONZEE/Check-yo-self/assets/128856310/520a9659-2fc8-44da-bc58-373f7a8152f2)
+
 
 ## Alert
-![Alert](https://github.com/LONZEE/Check-yo-self/assets/128856310/e537c022-28f4-43e0-b70c-87c3e4d329aa)
+![Alert](https://github.com/LONZEE/Check-yo-self/assets/128856310/829a8c1e-69d5-4641-8595-76129530cf6f)
+
+## Page Launch
+![Pages launch](https://github.com/LONZEE/Check-yo-self/assets/128856310/6c88734d-82e9-43b5-8853-fa21516766c1)
+
+## Deployed website
+![Deployed website](https://github.com/LONZEE/Check-yo-self/assets/128856310/5d132da3-6bed-4779-92e8-d9b4e8134aab)
+
+
 
 
 
