@@ -1,8 +1,8 @@
 // Assignment code here
-const capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const lower = "abcdefghijklmnopqrstuvwxyz";
-const number = "0123456789";
-const special = "@#$%^&*()_+~|}{[]></=";
+const capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";   // variables for password options
+const lower = "abcdefghijklmnopqrstuvwxyz";  
+const number = "0123456789";                  
+const special = "@#$%^&*()_+~|}{[]></=";   
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -10,15 +10,15 @@ function generatePassword() {
   let options = ""; // options the user wants
   var passwordLength = prompt(" Desired password length?");
   console.log(passwordLength);
-  if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
-    alert("Password must be between 8 and 128 characters");
+  if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {  // password length
+    alert("Password must be between 8 and 128 characters");   
     return "Please Try Again!"; // means to start over
   }
   var capitalLetter = confirm("Do you want to use capital letters?");
   var lowerLetter = confirm("What about lower case letters?");
   var numberLetter = confirm("Thought about your favorite number?");
   var specialLetter = confirm("How about special characters?");
-  if (!capitalLetter && !lowerLetter && !numberLetter && !specialLetter) {
+  if (!capitalLetter && !lowerLetter && !numberLetter && !specialLetter) {  // if user does not select any options
     alert("CHECK YO SELF AGAIN!");
     return "Please Try Again!";
   }
