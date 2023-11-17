@@ -35,7 +35,7 @@ Best TUTOR Bobbi Tarkany
 ![Favorite number](https://github.com/LONZEE/Check-yo-self/assets/128856310/41b2384c-43e2-4cb6-9a94-6694c63af335)
 
 
-##Special character
+## Special character
 ![special character](https://github.com/LONZEE/Check-yo-self/assets/128856310/520a9659-2fc8-44da-bc58-373f7a8152f2)
 
 
