@@ -16,7 +16,7 @@ function generatePassword() {
   }
   var capitalLetter = confirm("Do you want to use capital letters?");
   var lowerLetter = confirm("What about lower case letters?");
-  var numberLetter = confirm("thought about your favorite number?");
+  var numberLetter = confirm("Thought about your favorite number?");
   var specialLetter = confirm("How about special characters?");
   if (!capitalLetter && !lowerLetter && !numberLetter && !specialLetter) {
     alert("CHECK YO SELF AGAIN!");
