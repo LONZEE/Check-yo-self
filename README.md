@@ -1,11 +1,12 @@
 # Password Generator to Check Yo Self!!
 
 This is a simple tool to generate a paswword with YOUR choices!
+Had a lot of fun creating this code. Took me a while, but with the help a tutor of how things work on JavaScript the task was able to be accomplished!
 
 ##Features 
 
--You can customize your vary own password lenght (min 8- max 128)
--You can choose from Capital letters, Lowercase letters, numbers, and special characters
+* You can customize your vary own password lenght (min 8- max 128)
+* You can choose from Capital letters, Lowercase letters, numbers, and special characters
 
 ## Contributers
 Best TUTOR Bobbi Tarkany
